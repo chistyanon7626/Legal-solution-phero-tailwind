@@ -2,11 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Document</title>
+    <title>by-tailwind</title>
 </head>
-<body>
+<body class="w-full">
+    <header class="max-w-[1920px] mx-auto">
+    <div class="mt-[60px] flex items-center justify-center gap-[135px]">
+        <div class="w-[158px] h-[46px]"><img src="images/logo2.png" alt=""></div>
+        <div>
+            <nav>
+                <ul class="flex justify-between gap-[30px] text-2xl text-[#707070]">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Cases">Cases</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#Contact Us">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div><button class="py-[18px] px-[30px] bg-[#B68C5A] text-white text-[1.125rem] font-semibold rounded-lg shadow-[0_4px_4px_rgba(0,0,0,0.25)] hover:shadow-[0_6px_6px_rgba(0,0,0,0.35)] transition duration-300">Free Consultation</button>
+        </div>
+    </div>
+    <section class="max-w-[1920px] mx-auto mt-[50px]">
+        <div class="w-full h-[550px] bg-[url('images/banner.png')] bg-center bg-auto bg-no-repeat flex flex-col items-center justify-center text-center px-6">
+            <div class="col-auto">
+                <h1 class="text-white text-7xl font-extrabold leading-[85px] mb-6">We Provide Effective <br>Legal Solutions</h1>
+                <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class="flex gap-2 justify-center w-full mt-8">
+                <input class="px-4 py-3 w-[500px] rounded-lg border bg-white text-gray-800 focus:outline-none ml-6" type="text" placeholder="Search your services">
+
+                <button class="py-[17px] px-[42px] bg-[#B68C5A] text-white text-[1.125rem] font-semibold rounded-lg shadow-[0_4px_4px_rgba(0,0,0,0.25)] hover:shadow-[0_6px_6px_rgba(0,0,0,0.35)] transition duration-300">Search</button>
+            </div>
+        </div>
+    </section>
+    </header>
     
 </body>
 </html>
